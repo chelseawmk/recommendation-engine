@@ -21,10 +21,10 @@ import json
 import MySQLdb
 
 # Define your production Cloud SQL instance information.
-_INSTANCE_NAME = '<YOUR-PROJECT_ID>:<YOUR-INSTANCE-NAME>'
-_DB_NAME = '<YOUR-DB-NAME>'
-_DB_USER = '<YOUR-DB-USER>'
-_DB_PASS = '<YOUR-DB-PASS>'
+_INSTANCE_NAME = 'original-glyph-264604:mysqlinstacne'
+_DB_NAME = 'recommendation_spark'
+_DB_USER = 'root'
+_DB_PASS = 'password'
 _USER_ID = str(0)
 
 
